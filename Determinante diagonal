@@ -1,0 +1,9 @@
+public static int determinanteDiagonal(int[][] mat) {
+    int det = 1;
+
+    for (int i = 0; i < mat.length; i++) {
+        det *= mat[i][i];
+    }
+
+    return det;
+}
